@@ -1,0 +1,31 @@
+Q1 What is emment?
+Ans Emmet is a plugins used for text editors that can speed up the code in html and css and can also be used to work with jsx
+
+Q2 Diffrence between library and framework?
+Ans A library is a set prewritten code ,functions or classes designed to perform some specific tasks,in library the developer has the  control over the application flow.
+
+Whreas a framework provides the structured pattern for the app development and control of data flow .Unlike library a framework has the control over the application and uses the developer code when only required.
+
+q3 Why is React known as React?
+Ans React is called react to let developers to  react to the changes in state and data within application.
+
+
+Q3 what is cross origin in script tag?
+Ans  cross origin refers to the control how the browser handles request for the scripts that is coming from a different origin .
+
+purpose - enabling cors for lets the origin make sure that the scripts can be shared or not based on the circumstances.
+It also make sure the transfer of credentials like cookies etc are allowed or not during cross origin request.
+
+
+Q4 Difference between react and reactDom?
+Ans React - a javascript  library used for building ui components
+creates reusable ui components and manages their states 
+focuses on structure of ui components and its behavior 
+can be used for mobile and browsers
+
+
+React dom - A package in react that helps react app interact with browser dom
+handling renders and updating of ui components in the browsers.
+Renders react component to the dom and helps in updating the dom based on the state change
+focuses on updating the dom based on the virtual dom
+only used for browser based react apps 
