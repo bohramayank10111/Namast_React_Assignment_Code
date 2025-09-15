@@ -1,0 +1,68 @@
+-what is npm ?
+Npm stands for node package manager. Node package manager helps developer install , manage dependencies and third 
+party libraries.packages are pre built pieces of code that extends the functionality of the applications.
+
+-What is `Parcel/Webpack`? Why do we need it?
+Parcel webpack are bundlers that bundles the apps for the productions . 
+Need for bundlers in our app-
+Performance Optimization
+Hot module replacement
+Built in servers.
+
+
+- What is `.parcel-cache`?
+Ans - parcel - cache caches the all the code written. Whenever the build is generated it creates parel-cache folder  where all the files are cached and after the first time every time the code the updated other then the first time  build is generated and changes are regulated faster on the browser so it is because of parcel.cache . the files in the parcel.cache are in byte code format.
+
+
+- What is `npx` ?
+npx stands for node package executor .Npx executes the package without installing them to the local system or to global system 
+it also automatically downloads and executes the packages if not installed and it is beneficial for the for the one time use commands.
+
+
+-What is difference between `dependencies` vs `devDependencies` ?
+Dependencies are the libraries that are required in the project so it can execute properly in   production .Dependencies contains libaries required to execute the core functionality of the applications properly .
+
+DevDependencies -DevDependencies are the libaries that are only required in the developement phase of the applications. in package.json there is a key devDependencies which contains these libaries that are only required in the developement phase not in testing or production phase.
+
+- What is Tree Shaking?
+Tree shaking in react or in modern js is the dead code(any code like functional components ,modules ,etc  are but never imported or used) elimination techniques which is done during build phase and it is used to build smaller builds for imporved application Performance.
+ Need: 
+- Smaller bundle size
+- Faster reloads
+-Performance enhancements
+
+eg-// Without tree shaking (e.g., CommonJS require)
+const _ = require('lodash'); // Imports the entire Lodash library
+
+// With tree shaking (ES6 import)
+import { isArray, debounce } from 'lodash'; // Only imports the specified functions
+
+
+- List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words?
+1-Zero Configuration-Parcel offers zero configurations which means it handles automatically the build task without requirong the extensive file configurations.
+2-Parallel processing(Faster Builds)- Parcel leverages parallel processing along with the native rust based compiler fot faster builds for faster builds generation comapred to other bundlers.
+3-HMR(Hot Module Replacement)- Hmr is really a powerful feature in parcel in which the changes in the modules in the project are reflected in browsers immediately.It preserves the application state and accelrates developement workflow.
+4-Code Splitting -Parcel also supports automatic and manual code splitting based by using dynamic imports.This helps in splits smaller bundles that helps in faster load of the pages.
+5-Automatic Assest building
+
+
+- What is `.gitignore`? What should we add and not add into it?
+ Git ignore is file in the react project  in which we keep our files which doesnot needs to be moved into the git repository and further to the production level. as these files and modules  are automatically  downloaded by the bundler with the help of package.json .
+
+What is the difference between `package.json` and `package-lock.json`?
+ Difference between package.json and package-lock.json has package.json contains the meta data of the project and dependencies and package-lock.json contains the exact version of the dependencies when retrieved  so that if the version changes it automatically updates the version
+
+ Why should I not modify `package-lock.json`?
+ Package lock .json locks the exacts versions long with the history and the dependencies also so it should not be changed.  
+
+- What is `node_modules` ? Is it a good idea to push that on git?
+Node modules contains the packages of the modules that are used into the project along with the third party libraries . these packages are tracked and kept using the package.json file .
+    it is not a good practise to push node modules into the git as these files are large and can take up quite  space in the memory and because of package.json file these packages in the form of dependencies can be easily installed in the production level
+
+    What is dist folder in react ?
+    Dist folder contains the final production ready build of a react project(code and assests).Dist stands for distribution
+
+
+    What are browser lists?
+    Browser list refers to the configuration that specifies which browser and Node js versions of the project should the fe app support. these are used by babel and autoprefixer to ensure that js and css code are compatible with the browser.

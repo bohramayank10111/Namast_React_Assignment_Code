@@ -1,0 +1,35 @@
+{
+  "name": "react-code-manual-configuration",
+  "version": "1.0.0",
+  "description": "A react project based on learning",
+  "source": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohramayank10111/Namast_React_Assignment_Code.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "js",
+    "mayank",
+    "bohra"
+  ],
+  "author": "Mayank Bohra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohramayank10111/Namast_React_Assignment_Code/issues"
+  },
+  "homepage": "https://github.com/bohramayank10111/Namast_React_Assignment_Code#readme",
+  "dependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9"
+  }
+}
