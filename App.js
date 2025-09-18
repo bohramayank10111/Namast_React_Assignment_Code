@@ -1,10 +1,11 @@
-// const heading= React.createElement("h1",{},"Welcome to the react using cdn .");
-//   const root=ReactDOM.createRoot(document.getElementById("root"));
-  
-const parent=React.createElement("div",{id:"parent"},[React.createElement("div",{id:'child'},[
-    React.createElement("h1",{},"I am h1 tag"),
-    React.createElement("h2",{},"I am h2 tag"),
-    React.createElement("h3",{},"I am h3 tag"),
-])])
+ import React from "react";
+import ReactDOM from"react-dom/client";  
+import {} from './App.css'
+import FirstUiTask from "./Assignments/CodingTasks/Component/FirstUiTask";
+
+
+
 const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+//  root.render(parent);
+//  root.render(<HeadingComponent/>);
+root.render(<FirstUiTask/>);

@@ -4,6 +4,8 @@
   "description": "A react project based on learning",
   "source": "index.html",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {

@@ -1,0 +1,19 @@
+1-What is JSX?
+Jsx stands for javaScript xml . jsx helps the developers to write  the html code inside the a component in a react.jsx behind the scene is implemented just like a  react element.
+
+2-Superpowers of JSX?
+jsx helps us to write html code inside our react component.
+jsx protects the react apps from the cross site scripting attacks too.
+
+3-Role of type attribute in script tag? What options can I use there?
+The type attribute in the script tag denotes which type of the element the script tag contains. the browser can handle and interpret the contents easily.
+
+
+
+ 3.{TitleComponent} vs {<TitleComponent/>} vs
+{<TitleComponent></TitleComponent>} in JSX
+
+{TitleComponent}- A react element that is passed inside another react element or a component
+<TitleComponent/>- This is one of the ways of declaring a component.
+
+<TitleComponent></TitleComponent>- This type of component declaration supports nested components inside where  the component is declared.

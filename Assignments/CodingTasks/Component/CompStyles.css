@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    background-color: rgb(16, 37, 119);
+    color:blue;
+     justify-content: space-around;
+     align-items: flex-start; 
+}
+
+.item {
+  /* Add styling for your individual divs */
+  width: 30%; /* Example width, adjust as needed */
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid blue;
+  text-align: center;
+}

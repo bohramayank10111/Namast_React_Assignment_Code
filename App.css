@@ -1,0 +1,17 @@
+
+.container{
+    background-color: white;
+    color: antiquewhite;
+}
+
+.heading{
+    color: blue;
+}
+h4{
+    color: antiquewhite;
+}
+
+p{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -12,3 +12,4 @@ React.createElement("h1", { id: "heading4" }, "Heading 4"),
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(anotherParent);
+
