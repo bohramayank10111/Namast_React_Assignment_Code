@@ -1,17 +1,69 @@
-
-.container{
+.container {
     background-color: white;
     color: antiquewhite;
 }
 
-.heading{
+.heading {
     color: blue;
 }
-h4{
+
+h4 {
     color: antiquewhite;
 }
 
-p{
+p {
     color: brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* css for the modules */
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-items>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.search {
+    margin: auto;
+}
+
+.nav-items>ul>li {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* resturant container stylesheet */
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* resturant card style sheet */
+.res-card {
+    width: 225px;
+    height: 460px;
+    padding: 3px;
+    color: rgb(100, 96, 96);
+    margin: 4px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.res-card:hover {
+    box-shadow: 0 10px 19px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img-logo {
+    width: 221px;
 }
